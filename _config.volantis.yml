@@ -41,7 +41,7 @@ site_footer:
     - icon: fas fa-envelope
       url: mailto:z@zhufn.fun
     - icon: fab fa-github
-      url: https://github.com/zhufengning
+      url: https://gitlab.com/zhufengning
     - icon: fas fa-headphones-alt
       url: https://music.163.com/#/user/home?id=321503092
 
@@ -58,7 +58,7 @@ sidebar:
         - icon: fas fa-envelope
           url: mailto:z@zhufn.fun
         - icon: fab fa-github
-          url: https://github.com/zhufengning
+          url: https://gitlab.com/zhufengning
         - icon: fas fa-headphones-alt
           url: https://music.163.com/#/user/home?id=321503092
 

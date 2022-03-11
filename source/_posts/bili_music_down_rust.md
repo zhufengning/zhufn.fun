@@ -24,7 +24,7 @@ Download music from video lists of bilibili, audio only.
 
 没错，就这么小一个东西我写了一个多月才写出来，我果然还是那么菜。  
 
-地址：<https://github.com/zhufengning/bili_music_download>
+地址：<https://gitlab.com/zhufengning/bili_music_download>
 
 ## Release Note  
 

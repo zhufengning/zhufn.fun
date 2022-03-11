@@ -13,4 +13,4 @@ tags:
 之前Windows版传错了打不开，现已修复。建议解压。  
 [来一把（在线）](../../aikovsqb/magic.html)  
 [来一把（Windows版）](https://wwi.lanzoup.com/ibGZ500c44lc)  
-[开源地址](https://github.com/zhufengning/magic_aiko_godot)  
+[开源地址](https://gitlab.com/zhufengning/magic_aiko_godot)  
