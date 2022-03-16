@@ -1,6 +1,6 @@
 ---
 title: 在Github上键政，然后被封号
-date: 2022-03-12 00:21
+date: 1922-03-12 00:21
 categories: YouKnow
 urlname: fucked_by_github
 tags:
