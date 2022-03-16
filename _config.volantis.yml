@@ -36,7 +36,7 @@ search:
   js: https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2.6.4/js/search.js
 
 site_footer:
-    copyright: '[Copyright © 2021 ZhuFN](/)<br><a href="https://beian.miit.gov.cn/">渝ICP备19015943号</a>'
+    copyright: '[Copyright © 2021 ZhuFN](/)'
     social:
     - icon: fas fa-envelope
       url: mailto:z@zhufn.fun
