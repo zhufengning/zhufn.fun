@@ -1,5 +1,5 @@
 ---
-title: 遗传算法
+title: 遗传算法实现旅行商问题
 date: 2022-05-16 12:29:00
 categories: 数据科学
 urlname: yichuansuanfa
