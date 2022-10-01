@@ -29,7 +29,7 @@ cover:
   features: 
   background: https://pic.zhufn.fun/zhufn/f33a2bee/bb21157b.jpg
   title: ZhuFN's Blog
-  height_scheme: half
+  height_scheme: full
 search:
   enable: true
   service: hexo  # hexo, google, algolia, azure, baidu
