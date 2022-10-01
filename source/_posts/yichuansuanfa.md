@@ -216,7 +216,7 @@ void bianYi(Rst &r) {
 我们随机生成了一组测试数据，包含174个城市坐标。下图是进行了1000次繁衍后的最优解（红）和种群平均解（绿）。  
 数据：<https://gist.github.com/zhufengning/3a617fc3f3765cd192d42fb27ee374d0>  
 
-![img](http://pic.yupoo.com/zhufn/66c71941/86413658.png)
+![img](http://pic.zhufn.fun/zhufn/66c71941/86413658.png)
 
 ## 完整代码
 ```cpp

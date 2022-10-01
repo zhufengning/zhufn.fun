@@ -357,7 +357,7 @@ void push_down(int p)
 ## 可持久化
 非常简单，只要在split和merge时为修改添加节点然后用root数组记录版本就行了  
 然而。。。 
-![提交记录](https://pic.yupoo.com/zhufn/da7e961c/e1bd23c6.jpg)
+![提交记录](https://pic.zhufn.fun/zhufn/da7e961c/e1bd23c6.jpg)
 
 我要疯了。。。  
 以下是split和merge。  

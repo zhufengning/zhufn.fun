@@ -74,7 +74,7 @@ An integer specifying the maximum amount of milk pumped through any stall in the
 
 然后LCA也忘了。我还非常沙雕地用tarjan求出每两个点之间的LCA，还开小了数组。结果TLE+MLE。
 
-![TLE+MLE](http://pic.yupoo.com/zhufn/2dd4100f/7f8e4f7f.png)
+![TLE+MLE](http://pic.zhufn.fun/zhufn/2dd4100f/7f8e4f7f.png)
 
 改用倍增求一直不过样例，后来才发现我一直用的存父亲的数组是放在tarjan LCA里求的。。。
 

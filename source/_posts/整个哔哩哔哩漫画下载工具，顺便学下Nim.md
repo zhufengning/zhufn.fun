@@ -20,5 +20,5 @@ nim的位运算有点烦
 
 
   [1]: https://gitlab.com/zhufengning/BiliComicDownload
-  [2]: https://pic.yupoo.com/zhufn/fe384e62/111fc2d4.png
-  [3]: https://pic.yupoo.com/zhufn/9ce0bf3f/2207a805.png
+  [2]: https://pic.zhufn.fun/zhufn/fe384e62/111fc2d4.png
+  [3]: https://pic.zhufn.fun/zhufn/9ce0bf3f/2207a805.png
