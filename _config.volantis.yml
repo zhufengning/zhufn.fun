@@ -241,3 +241,5 @@ article:
 analytics:
   busuanzi: https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
 
+structured_data:
+  enable: false
