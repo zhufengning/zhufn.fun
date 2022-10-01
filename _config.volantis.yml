@@ -214,10 +214,6 @@ article:
       counter:
         icon: fas fa-eye
         unit: '次浏览'
-      # 文章评论数量：只支持 valine
-      valinecount:
-        icon: fas fa-comment-dots
-        desc: '' # 条评论
       # 文章字数和阅读时长
       wordcount:
         icon_wordcount: fas fa-keyboard
