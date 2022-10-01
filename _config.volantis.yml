@@ -123,7 +123,7 @@ plugins:
 comments:
   service: valine
   valine:
-    js: https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js
+    js: https://cdn.jsdelivr.net/npm/valine@1.5.1/dist/Valine.min.js
     placeholder: "%%%"  # 评论占位提示
     # 其他配置项按照yml格式继续填写即可 除了 [el path placeholder emojiCDN emojiMaps] 选项
     appId: Btosl2irNLxmpQNQLzxxb0eX-gzGzoHsz # your appId
