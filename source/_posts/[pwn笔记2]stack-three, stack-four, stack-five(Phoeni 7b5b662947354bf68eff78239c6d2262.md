@@ -51,7 +51,7 @@ print(sh.recvlines(2))
 
 后来看到了另一个方法：
 
-![Untitled](%5Bpwn%E7%AC%94%E8%AE%B02%5Dstack-three,%20stack-four,%20stack-five(Phoeni%207b5b662947354bf68eff78239c6d2262/Untitled.png)
+![Untitled](/pics/%5Bpwn%E7%AC%94%E8%AE%B02%5Dstack-three,%20stack-four,%20stack-five(Phoeni%207b5b662947354bf68eff78239c6d2262/Untitled.png)
 
 调用gets之前，s被放入了rax中。所以直接把shellcode放到最前面就会被rax指向。
 

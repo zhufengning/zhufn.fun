@@ -167,7 +167,7 @@ void dfs(Node *param_1)
 
 （ida可能无法识别把一个内存中的变量分到两个寄存器这个操作，比如这里需要在v6上右键，映射到v4。）
 
-![Untitled](%5B2019_Redhat%5DchildRE%208add79fc8f66434ea6fbff78a3be12f0/Untitled.png)
+![Untitled](/pics/%5B2019_Redhat%5DchildRE%208add79fc8f66434ea6fbff78a3be12f0/Untitled.png)
 
 这个叫什么二叉树来着我给忘了，反正就是按层的顺序，从左到右。
 
