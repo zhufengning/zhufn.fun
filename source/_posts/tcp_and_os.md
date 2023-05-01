@@ -1,9 +1,9 @@
 ---
 title: tcp握手包（服务器）在linux与windows下的重传次数默认值
 date: 2022-07-21 21:50:00
-categories: 网络
+tags: [网络]
 urlname: tcp_and_os
-tags:
+
 ---
 建立连接前两步：  
 syn->  

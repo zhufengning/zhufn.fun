@@ -1,9 +1,9 @@
 ---
 title: 洛谷P2904 跨河River Crossing
 date: 2019-02-22 13:52:01
-categories: 动态规划
+tags: [动态规划]
 urlname: 33
-tags:
+
 ---
 <!--markdown-->
 ## 题目描述

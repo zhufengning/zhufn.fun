@@ -1,10 +1,8 @@
 ---
 title: CF1175B Catch Overflow!
 date: 2019-06-24 09:54:00
-categories: 栈
+tags: [栈, CodeForces]
 urlname: 42
-tags:
-- CodeForces
 ---
 <!--markdown-->
 # 题目

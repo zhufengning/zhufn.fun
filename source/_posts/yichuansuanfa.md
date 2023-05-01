@@ -1,9 +1,9 @@
 ---
 title: 遗传算法实现旅行商问题
 date: 2022-05-16 12:29:00
-categories: 数据科学
+tags: 数据科学
 urlname: yichuansuanfa
-tags:
+
 ---
 我们选择遗传算法的经典案例——旅行商问题来介绍遗传算法的具体实现。
 

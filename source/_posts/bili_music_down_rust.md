@@ -1,9 +1,9 @@
 ---
 title: 学习rust后，写出下载B站视频的音频的GUI应用
 date: 2021-09-08 13:30:00
-categories: YouKnow
+tags: [YouKnow]
 urlname: bili_music_down_rust
-tags:
+
 ---
 
 从Bilibili的视频收藏夹中下载音乐，仅下载音频。  

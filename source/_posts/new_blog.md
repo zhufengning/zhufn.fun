@@ -2,7 +2,7 @@
 title: 新博客 x.zhufn.fun
 date: 2022-10-19 19:52
 urlname: newblog
-categories: YouKnow
+tags: [YouKnow]
 ---
 <https://x.zhufn.fun> 以后都在这里更新了  
 Hexo太麻烦了，每次又要打开gitlab，然后手打文章信息的表格。  

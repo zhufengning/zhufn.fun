@@ -1,9 +1,9 @@
 ---
 title: 【翻译】PalmOS 的PDB格式文件
 date: 2020-02-12 02:50:00
-categories: YouKnow
+tags: [YouKnow]
 urlname: 87
-tags:
+
 ---
 <!--markdown-->
 研究MOBI要从研究PDB开始。

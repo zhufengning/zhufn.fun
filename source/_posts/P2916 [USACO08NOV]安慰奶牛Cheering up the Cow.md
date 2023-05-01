@@ -1,9 +1,9 @@
 ---
 title: P2916 [USACO08NOV]安慰奶牛Cheering up the Cow
 date: 2019-03-24 09:30:00
-categories: 最小生成树
+tags: [最小生成树]
 urlname: 36
-tags:
+
 ---
 <!--markdown-->
 # P2916 [USACO08NOV]安慰奶牛Cheering up the Cow

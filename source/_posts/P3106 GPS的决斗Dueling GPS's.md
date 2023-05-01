@@ -1,9 +1,9 @@
 ---
 title: P3106 GPS的决斗Dueling GPS's
 date: 2019-06-24 10:03:00
-categories: 最短路
+tags: [最短路]
 urlname: 43
-tags:
+
 ---
 <!--markdown-->
 # 题目

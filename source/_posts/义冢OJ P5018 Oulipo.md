@@ -1,9 +1,9 @@
 ---
 title: 义冢OJ P5018 Oulipo
 date: 2019-03-18 09:48:00
-categories: KMP
+tags: [KMP]
 urlname: 35
-tags:
+
 ---
 <!--markdown-->
 # 义冢OJ P5018 Oulipo

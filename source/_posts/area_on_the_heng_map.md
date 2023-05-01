@@ -1,9 +1,9 @@
 ---
 title: 横截面图上的区域
 date: 2021-11-05 20:48
-categories: 栈
+tags: [栈]
 urlname: hengjiemiantu
-tags:
+
 ---
 你的任务是模拟洪水灾害。  
 对于给定的横截面图，给出淹没部分的面积。  

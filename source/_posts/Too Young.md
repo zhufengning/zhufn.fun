@@ -1,9 +1,9 @@
 ---
 title: Too Young
 date: 2019-10-28 12:19:00
-categories: 考试
+tags: [考试]
 urlname: TooYoung
-tags:
+
 ---
 <!--markdown-->
 #  Too Young 

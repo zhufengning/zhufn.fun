@@ -1,9 +1,9 @@
 ---
 title: 解决rust编译目标为musl时openssl报错
 date: 2022-04-11 00:09:00
-categories: YouKnow
+tags: [YouKnow]
 urlname: rust-musl-ssl
-tags:
+
 ---
 为了节省容器启动时间，准备把rust写的api编译好后扔进docker里，于是编译到target:x86_64-unknown-linux-musl  
 然后openssl炸了，不认libssl-dev了，查了下要重新编译。。。  

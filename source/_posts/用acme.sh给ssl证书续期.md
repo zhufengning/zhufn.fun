@@ -1,9 +1,9 @@
 ---
 title: 用acme.sh给ssl证书续期
 date: 2020-02-03 08:19:00
-categories: 服务器维护
+tags: [服务器维护]
 urlname: 86
-tags:
+
 ---
 <!--markdown-->
 关于`acme.sh`的详细说明可以看[这里][1]  

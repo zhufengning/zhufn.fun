@@ -1,8 +1,8 @@
 ---
 title: 记录一下思源服务端的安装过程
 date: 2022-03-15 00:37:00
-tags:
-categories: 
+
+tags: []
     - 服务器
     - docker
 urlname: siyuan-install

@@ -1,9 +1,9 @@
 ---
 title: BDS服务器中如何永久授予玩家权限
 date: 2020-03-26 10:48:56
-categories: YouKnow
+tags: [YouKnow]
 urlname: 88
-tags:
+
 ---
 <!--markdown-->
 1.登录服务器，

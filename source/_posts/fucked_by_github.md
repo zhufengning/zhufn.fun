@@ -1,9 +1,9 @@
 ---
 title: 在Github上键政，然后被封号
 date: 1922-03-12 00:21
-categories: YouKnow
+tags: [YouKnow]
 urlname: fucked_by_github
-tags:
+
 ---
 大家好，我宣布个事：我是傻逼！！！  
 当这条消息出现在你的眼前时，我的Github账号已经被封了大半天了  

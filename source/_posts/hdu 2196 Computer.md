@@ -1,9 +1,9 @@
 ---
 title: hdu 2196 Computer
 date: 2019-11-04 13:53:44
-categories: 动态规划
+tags: [动态规划]
 urlname: 77
-tags:
+
 ---
 <!--markdown-->
 # hdu 2196 Computer

@@ -1,9 +1,9 @@
 ---
 title: 贴个哈希表代码
 date: 2021-10-28 23:19:00
-categories: 哈希表
+tags: [哈希表]
 urlname: haxibiao
-tags:
+
 ---
 题目链接：  
 <https://www.luogu.com.cn/problem/P4305>  

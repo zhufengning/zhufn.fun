@@ -1,9 +1,9 @@
 ---
 title: CDQ分治总结
 date: 2019-08-27 13:14:00
-categories: 分治
+tags: [分治]
 urlname: 50
-tags:
+
 ---
 <!--markdown-->
 经过了一周~~的划水~~，我终于搞懂了cdq分治。

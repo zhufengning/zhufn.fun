@@ -1,9 +1,9 @@
 ---
 title: 拷贝漫画pc web端解密
 date: 2021-10-6 20:04:00
-categories: web
+tags: [web]
 urlname: cpmgapi
-tags:
+
 ---
 ~~（为什么要加个pc呢因为手机版网页好像是没加密的）~~  
 

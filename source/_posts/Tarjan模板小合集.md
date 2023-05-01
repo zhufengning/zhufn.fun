@@ -1,9 +1,9 @@
 ---
 title: Tarjan模板小合集
 date: 2019-07-24 08:56:39
-categories: 割点，割边
+tags: [割点，割边]
 urlname: 47
-tags:
+
 ---
 <!--markdown-->
 ## 强连通分量

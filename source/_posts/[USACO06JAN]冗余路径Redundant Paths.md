@@ -1,9 +1,9 @@
 ---
 title: 【USACO06JAN】冗余路径Redundant Paths
 date: 2019-07-23 12:12:00
-categories: 割点，割边
+tags: [割点，割边]
 urlname: 46
-tags:
+
 ---
 <!--markdown-->
 ## 题目

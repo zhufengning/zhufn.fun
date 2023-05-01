@@ -1,9 +1,9 @@
 ---
 title: 【USACO18DEC】Fine Dining
 date: 2019-07-15 08:51:16
-categories: 最短路
+tags: [最短路]
 urlname: 44
-tags:
+
 ---
 <!--markdown-->
 # [USACO18DEC]Fine Dining

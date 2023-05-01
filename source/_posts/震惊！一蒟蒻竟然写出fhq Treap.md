@@ -1,9 +1,9 @@
 ---
 title: 震惊！一蒟蒻竟然写出fhq Treap
 date: 2019-05-12 15:31:00
-categories: 平衡树
+tags: [平衡树]
 urlname: 40
-tags:
+
 ---
 <!--markdown-->
 # ~~震惊，我竟然写出了fhq Treap~~

@@ -1,9 +1,9 @@
 ---
 title: 状压dp入门
 date: 2019-10-24 00:03:00
-categories: 动态规划
+tags: [动态规划]
 urlname: 66
-tags:
+
 ---
 <!--markdown-->
 # 状压dp入门

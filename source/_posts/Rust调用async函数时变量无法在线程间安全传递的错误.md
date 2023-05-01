@@ -1,8 +1,8 @@
 ---
 title: Rust调用async函数时变量无法在线程间安全传递的错误
 date: 2022-03-07 16:29:23
-tags:
-categories: 多线程
+
+tags: [多线程]
 urlname: rust-var-need-drop-before-async
 ---
 这是一段伪代码

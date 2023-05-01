@@ -1,9 +1,9 @@
 ---
 title: 用java手写了个JSON解析&生成器
 date: 2022-05-17 00:56:00
-categories: YouKnow
+tags: [YouKnow]
 urlname: handwritejson
-tags:
+
 ---
   
 主要实现思路是递归。我们把单个值也当作合法的json，先判断当前json类型，如果是单个值就直接return对应类型（解析时）或toString（编码时），如果是Object就遍历它的key值，然后取冒号后面的部分递归解析/编码，Array也差不多。  

@@ -1,9 +1,9 @@
 ---
 title: '[xctf.reverse]notsequence（用杨辉三角当密码）'
 date: 2022-08-02 18:46:00
-categories: reverse
+tags: [reverse]
 urlname: reverse_yanghui
-tags:
+
 ---
 有这么一道题，它检验输入，并把输入里的空白删掉后取md5作为flag。它的输入非常神奇，用scanf读入一堆整数。放进数组里后要经过两个函数的检验。  
 （下面请ghidra发言）  

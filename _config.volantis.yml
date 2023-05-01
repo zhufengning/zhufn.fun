@@ -78,8 +78,8 @@ sidebar:
       display: [desktop] # [desktop, mobile]
       header:
         icon: fas fa-folder-open
-        title: 文章分类
-        url: /blog/categories/
+        title: 文章标签
+        url: /blog/tags/
     # ---------------------------------------
     # tagcloud widget
     tagcloud:
@@ -124,7 +124,7 @@ comments:
   service: waline
   waline:
     path: # 全局评论地址 目前设置全局评论地址后visitor失效,这是waline的问题
-    placeholder: 快来评论吧~  # 评论占位提示
+    placeholder: 快来评论吧~，邮件联系见about  # 评论占位提示
     imageHosting: https://7bu.top/api/upload # 图床api（默认使用去不图床）
     # 其他配置项按照yml格式继续填写即可 除了 [el path placeholder uploadImage] 选项
     serverURL: https://cm.zhufn.fun
@@ -229,8 +229,8 @@ article:
           img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
         - id: weibo
           img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
-        - id: # qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
-          img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
+        - id: qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
+          img: /pics/qr-code.png
         - id: # telegram
           img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
           

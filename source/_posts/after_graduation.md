@@ -1,8 +1,8 @@
 ---
 title: 记录截止高考后两周搞出的东西以及一些计划
 date: 2021-06-23 21:10:00
-tags:
-categories: YouKnow
+
+tags: [YouKnow]
 urlname: 高考后两周
 ---
 # wyyyy  
