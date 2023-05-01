@@ -11,7 +11,7 @@ navbar:
       
     - name: 分类
       icon: fas fa-folder-open
-      url: categories/
+      url: tags/
       
     - name: 归档
       icon: fas fa-archive
