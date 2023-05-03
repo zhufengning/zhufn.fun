@@ -9,7 +9,7 @@ navbar:
       icon: fas fa-rss
       url: /
       
-    - name: 分类
+    - name: 标签分类
       icon: fas fa-folder-open
       url: tags/
       
@@ -41,7 +41,7 @@ site_footer:
     - icon: fas fa-envelope
       url: mailto:z@zhufn.fun
     - icon: fab fa-github
-      url: https://gitlab.com/zhufengning
+      url: https://github.com/zhufengning
     - icon: fas fa-headphones-alt
       url: https://music.163.com/#/user/home?id=321503092
 
@@ -58,7 +58,7 @@ sidebar:
         - icon: fas fa-envelope
           url: mailto:z@zhufn.fun
         - icon: fab fa-github
-          url: https://gitlab.com/zhufengning
+          url: https://github.com/zhufengning
         - icon: fas fa-headphones-alt
           url: https://music.163.com/#/user/home?id=321503092
 
@@ -69,19 +69,19 @@ sidebar:
         icon: fas fa-list
         title: 本文目录
       list_number: false
-      min_depth: 2
+      min_depth: 1
       max_depth: 5
     # ---------------------------------------
     # category widget
-    category:
-      class: category
-      display: [desktop] # [desktop, mobile]
-      header:
-        icon: fas fa-folder-open
-        title: 文章标签
-        url: /blog/tags/
+    #category:
+    #  class: category
+    #  display: [desktop] # [desktop, mobile]
+    #  header:
+    #    icon: fas fa-folder-open
+    #    title: 文章标签
+    #    url: /blog/tags/
     # ---------------------------------------
-    # tagcloud widget
+    #tagcloud widget
     tagcloud:
       class: tagcloud
       display: [desktop, mobile] # [desktop, mobile]
