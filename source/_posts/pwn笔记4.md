@@ -4,8 +4,9 @@ urlname: "pwn4"
 date: 2023-05-03 17:07:24
 tags: [pwn, format]
 ---
- 新的章节讲的是利用格式化字符串漏洞的故事。
- format-two全是x86的题解，找了半天才在一个评论区里找到如何回避x86_64下\x00的坑
+新的章节讲的是利用格式化字符串漏洞的故事。
+format-two全是x86的题解，找了半天才在一个评论区里找到如何回避x86_64下\x00的坑
+
 ## format-zero
 ### 本题源码
 
@@ -165,6 +166,12 @@ int main(int argc, char **argv) {
 每多一个%p字符串增加两字节，但是可以消耗掉栈上的8字节，这就形成了一个追及问题，直到某个数量后，栈上%n下面正好是0x00600af0。
 ### 坑
 bash里拿$(balabala)作为参数时，如果里面有换行，会自动变成两个参数。
+所以不能
+
+```bash
+/opt/phoenix/amd64/format-two $(cat payload)
+```
+
 ### 来点python
 ```python
 from pwn import *
