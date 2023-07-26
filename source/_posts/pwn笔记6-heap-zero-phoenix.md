@@ -1,5 +1,5 @@
 ---
-title: '\[pwn笔记6\] heap-zero (phoenix)'
+title: '[pwn笔记6] heap-zero (phoenix)'
 date: 2023-07-20 23:46:28
 urlname: "pwn6"
 tags: [pwn, format]
