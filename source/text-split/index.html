@@ -4,6 +4,7 @@ layout: false
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Text Splitter</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -19,6 +20,7 @@ layout: false
     </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
 </head>
+
 <body>
     <h1>Text Splitter</h1>
     <form id="splitForm">
@@ -31,7 +33,7 @@ layout: false
     <div id="output"></div>
 
     <script>
-        document.getElementById('splitForm').addEventListener('submit', function(e) {
+        document.getElementById('splitForm').addEventListener('submit', function (e) {
             e.preventDefault();
 
             var text = document.getElementById('text').value;
@@ -41,12 +43,12 @@ layout: false
             var blocks = [];
             var currentBlock = '';
 
-            paragraphs.forEach(function(paragraph) {
+            paragraphs.forEach(function (paragraph) {
                 if (currentBlock.length + paragraph.length <= limit) {
-                    currentBlock += paragraph + '\n';
+                    currentBlock += "<p>" + paragraph + "</p>" + '\n';
                 } else {
                     blocks.push(currentBlock);
-                    currentBlock = paragraph + '\n';
+                    currentBlock = "<p>" + paragraph + "</p>" + '\n';
                 }
             });
 
@@ -54,17 +56,17 @@ layout: false
 
             document.getElementById('output').innerHTML = '';
 
-            blocks.forEach(function(block) {
+            blocks.forEach(function (block) {
                 var div = document.createElement('div');
                 div.classList.add('text-block');
-                div.textContent = block;
-                div.addEventListener('click', function() {
+                div.innerHTML = block;
+                div.addEventListener('click', function () {
                     var range = document.createRange();
                     range.selectNodeContents(this);
                     var selection = window.getSelection();
                     selection.removeAllRanges();
                     selection.addRange(range);
-                    
+
                     document.execCommand('copy');
                     alert('Text has been copied to clipboard');
                 });
@@ -73,4 +75,5 @@ layout: false
         });
     </script>
 </body>
+
 </html>
