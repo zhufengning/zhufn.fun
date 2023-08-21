@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Splitter</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+        .text-block {
+            height: 100px;
+            overflow: hidden;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+<body>
+    <h1>Text Splitter</h1>
+    <form id="splitForm">
+        <label for="text">Text:</label><br>
+        <textarea id="text" rows="10" cols="50"></textarea><br>
+        <label for="limit">Character Limit:</label><br>
+        <input type="number" id="limit"><br>
+        <input type="submit" value="Split Text">
+    </form>
+    <div id="output"></div>
+
+    <script>
+        document.getElementById('splitForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            var text = document.getElementById('text').value;
+            var limit = document.getElementById('limit').value;
+
+            var paragraphs = text.split('\n');
+            var blocks = [];
+            var currentBlock = '';
+
+            paragraphs.forEach(function(paragraph) {
+                if (currentBlock.length + paragraph.length <= limit) {
+                    currentBlock += paragraph + '\n';
+                } else {
+                    blocks.push(currentBlock);
+                    currentBlock = paragraph + '\n';
+                }
+            });
+
+            blocks.push(currentBlock);
+
+            document.getElementById('output').innerHTML = '';
+
+            blocks.forEach(function(block) {
+                var div = document.createElement('div');
+                div.classList.add('text-block');
+                div.textContent = block;
+                div.addEventListener('click', function() {
+                    var range = document.createRange();
+                    range.selectNodeContents(this);
+                    var selection = window.getSelection();
+                    selection.removeAllRanges();
+                    selection.addRange(range);
+                    
+                    document.execCommand('copy');
+                    alert('Text has been copied to clipboard');
+                });
+                document.getElementById('output').appendChild(div);
+            });
+        });
+    </script>
+</body>
+</html>
