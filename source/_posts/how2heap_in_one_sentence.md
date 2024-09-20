@@ -1,0 +1,35 @@
+---
+title: how2heap系列n句话总结
+date: 2024-09-03 19:55:36
+urlname: how2heap_in_one_sentence
+tags: [pwn, heap]
+---
+
+# how2heap系列n句话总结
+
+## fastbin_dup 
+
+double free后可malloc出两个相同的地址，不能连续free同一个指针，必须隔一个（链表头check） 
+
+> 双释其址，再赋之，可得旧地。然连释一指针，不可为也，必隔一而释之。 
+
+## fastbin_dup_into_stack 
+
+利用上面的方法，对于malloc出的两个相同的地址，在第二次malloc出该地址前，利用第一次malloc的指针修改该chunk的fd指针，指向栈上某地址。在第二次malloc出该地址后，再分配时将获得指向该栈上地址的chunk
+
+> 若依前法，得双同址于新配。于次配此址前，可用初配之指针改其块之前驱指针，向栈中某位。既再配此址，复行分配，则所得之块，乃指栈上某位矣。 
+
+## fastbin_dup_consolidate
+
+对于double free的地址，在第二次free该地址前，malloc一块large的，触发合并，得到该地址的更大的新chunk。之后在第二次free时，这个已分配的chunk被放进tcache，称作tcache投毒。
+
+
+> 对于双释之址，于次释此址前，先行配一大块，诱触合并，得此址之更大新块。既次释之，则此已分配之块入于缓存，谓之「缓存投毒」也。
+
+## unsafe unlink
+
+有一个已知地址的指针P指向chunk A，它后面有个chunk B，（均已分配），A可以溢出到B。在A中构造fake chunk，在fd, bk指针中写入P往前推offset距离的值，使得P恰好在fd->bk/bk->fd的位置，可通过检查。修改A的size和B中的prev size，使得在free B时以错误的size向前合并，合并到fake chunk中。接下来会unlink，bk->fd(即&P) = fd(即&P-3)，导致P被修改为&P-3，修改P[3]即可使P指向任意地址。
+
+> 有一已知址之指针 P 指于块 A ，其后有块 B （俱已配），A 可溢至 B 。于 A 中构伪块，于前向、后向指针中书 P 前推偏移距之值，使 P 恰于前向指针指后向指针 / 后向指针指前向指针之位，可经检。改 A 之大小与 B 中之前大小，致于释 B 时以误之大小前合，合于伪块中。继之将解链，后向指针指前向指针（即 & P ） = 前向指针（即 & P - 3 ），致 P 改为 & P - 3 ，改 P [3] 即可使 P 指于任所欲之址。
+
+![unlink](unlink.png)
