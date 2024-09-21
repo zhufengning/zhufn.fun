@@ -8,7 +8,7 @@ urlname: handwritejson
   
 主要实现思路是递归。我们把单个值也当作合法的json，先判断当前json类型，如果是单个值就直接return对应类型（解析时）或toString（编码时），如果是Object就遍历它的key值，然后取冒号后面的部分递归解析/编码，Array也差不多。  
 经解码再编码测试非常完美。  
-![img](http://pic.zhufn.fun/zhufn/20762bb1/eba6e22d.png)  
+![img](handwritejson/eba6e22d.png)  
 
 知识点：java泛型类如HashMap<String, Object>无法用instanceof检测。  
 但是，可以新写一个空类去继承他，这样就不是泛型了。  

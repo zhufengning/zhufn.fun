@@ -119,9 +119,9 @@ $v_i$是 int 范围内正整数.
 
 赛后看题解：
 
-![UTOOLS1572264681454.png](https://yanxuan.nosdn.127.net/717b478aa96028a5255e23cec0be766d.png)
+![UTOOLS1572264681454.png](Too%20Young/717b478aa96028a5255e23cec0be766d.png)
 
-![UTOOLS1572264715976.png](https://yanxuan.nosdn.127.net/d7710f6040eaac4f443b68dfaa8e9b58.png)
+![UTOOLS1572264715976.png](Too%20Young/d7710f6040eaac4f443b68dfaa8e9b58.png)
 
 好，好的！
 
@@ -129,7 +129,7 @@ $v_i$是 int 范围内正整数.
 
 借一下唢呐大佬的图
 
-![UTOOLS1572264861444.png](https://yanxuan.nosdn.127.net/fe3ec776a6aff7c8e2f6640e24516a5d.png)
+![UTOOLS1572264861444.png](Too%20Young/fe3ec776a6aff7c8e2f6640e24516a5d.png)
 
 啥？？
 

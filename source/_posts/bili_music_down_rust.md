@@ -12,15 +12,15 @@ Download music from video lists of bilibili, audio only.
 
 首先我们看一下截图 
 
-![截图1](https://pic.zhufn.fun/zhufn/68b19aa5/086be60c.png)
+![截图1](bili_music_down_rust/086be60c.png)
 
-![截图2](http://pic.zhufn.fun/zhufn/a6ab6edd/127a029f.png)
+![截图2](bili_music_down_rust/127a029f.png)
 
-![截图3](http://pic.zhufn.fun/zhufn/a7cc05d5/3405b239.png)
+![截图3](bili_music_down_rust/3405b239.png)
 
-![截图4](http://pic.zhufn.fun/zhufn/62f7e71a/f46f3ef8.png)
+![截图4](bili_music_down_rust/f46f3ef8.png)
 
-![截图5](http://pic.zhufn.fun/zhufn/d680b364/20cdf1e1.png)
+![截图5](bili_music_down_rust/20cdf1e1.png)
 
 没错，就这么小一个东西我写了一个多月才写出来，我果然还是那么菜。  
 

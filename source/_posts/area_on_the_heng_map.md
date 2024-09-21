@@ -7,7 +7,7 @@ urlname: hengjiemiantu
 ---
 你的任务是模拟洪水灾害。  
 对于给定的横截面图，给出淹没部分的面积。  
-[![横截面图](https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_ALDS1_3_D)](https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_ALDS1_3_D)  
+[![横截面图](area_on_the_heng_map/IMAGE2_ALDS1_3_D)](area_on_the_heng_map/IMAGE2_ALDS1_3_D)  
 假设该地区不断地下雨，而从该地区溢出的水正在落入两侧的海中。 例如，对于上面的横截面图，雨水将产生洪水，其面积分别为 4、2、1、19 和 9。  
 **输入**  
 在一行中给出一个字符串，分别用"/",""和"_"表示斜坡和平原。 例如，上面例子的区域由字符串“\ \ / / / \ _ / \ / \ \ \ \ / _ / \ \ / / / _ _ \ \ \ _ \ \ / _ \ / _ / ”给出。  

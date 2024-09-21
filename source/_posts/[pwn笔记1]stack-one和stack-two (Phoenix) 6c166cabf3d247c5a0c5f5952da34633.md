@@ -11,7 +11,7 @@ tags: [pwn, stack]
 
 将程序第一个参数`strcpy`到字符串。
 
-![https://s2.loli.net/2023/02/15/P3IYOneKUiS6vNV.png](https://s2.loli.net/2023/02/15/P3IYOneKUiS6vNV.png)
+![https://s2.loli.net/2023/02/15/P3IYOneKUiS6vNV.png](%5Bpwn%E7%AC%94%E8%AE%B01%5Dstack-one%E5%92%8Cstack-two%20%28Phoenix%29%206c166cabf3d247c5a0c5f5952da34633/P3IYOneKUiS6vNV.png)
 
 在gdb中run后面直接接参数即可带上参数。
 
@@ -33,7 +33,7 @@ print(sh.recvlines(2))
 
 这次是写到环境变量里。
 
-![https://s2.loli.net/2023/02/15/NhRfz7Ciw8UavO4.png](https://s2.loli.net/2023/02/15/NhRfz7Ciw8UavO4.png)
+![https://s2.loli.net/2023/02/15/NhRfz7Ciw8UavO4.png](%5Bpwn%E7%AC%94%E8%AE%B01%5Dstack-one%E5%92%8Cstack-two%20%28Phoenix%29%206c166cabf3d247c5a0c5f5952da34633/NhRfz7Ciw8UavO4.png)
 
 做到这里发现环境变量里写"\0"进去会出问题，我们要求写入的是32位数据，不应该用p64，用了就会自动补0，然后报错。
 
