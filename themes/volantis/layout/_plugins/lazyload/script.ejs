@@ -1,4 +1,4 @@
-<script defer src="<%- theme.plugins.lazyload.js %>"></script>
+<script defer src="<%- theme.cdn['vanilla-lazyload'] %>"></script>
 <script>
   // https://www.npmjs.com/package/vanilla-lazyload
   // Set the options globally
@@ -17,9 +17,6 @@
     false
   );
   document.addEventListener('DOMContentLoaded', function () {
-    lazyLoadInstance.update();
-  });
-  document.addEventListener('pjax:complete', function () {
     lazyLoadInstance.update();
   });
 </script>

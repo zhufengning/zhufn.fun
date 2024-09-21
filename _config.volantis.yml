@@ -121,13 +121,21 @@ plugins:
     enable: false
 
 comments:
-  service: waline
-  waline:
-    path: # 全局评论地址 目前设置全局评论地址后visitor失效,这是waline的问题
-    placeholder: 快来评论吧~，邮件联系见about  # 评论占位提示
-    imageHosting: https://7bu.top/api/upload # 图床api（默认使用去不图床）
-    # 其他配置项按照yml格式继续填写即可 除了 [el path placeholder uploadImage] 选项
-    serverURL: https://cm.zhufn.fun
+  service: giscus
+  giscus:
+    # 以下配置按照 yml 格式增删填写即可
+    repo: zhufengning/zhufn.fun
+    repo-id: MDEwOlJlcG9zaXRvcnkzNDk5MjE2NDc=
+    category: Announcements
+    category-id: DIC_kwDOFNthb84Cip_3
+    mapping: "pathname"
+    reactions-enabled: "1"
+    emit-metadata: "0"
+    lang: "zh-CN"
+    # 以上配置按照 yml 格式增删填写即可
+    theme:
+      light: "light" # https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
+      dark: "dark" # https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css
 
 # 文章布局
 article:

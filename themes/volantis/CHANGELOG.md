@@ -1,47 +1,5 @@
 # Changelog
 
-## [5.8.0](https://github.com/volantis-x/hexo-theme-volantis/compare/5.7.10...5.8.0) (2023-05-06)
-
-
-### Features
-
-* **head and body template:** 支持在front-matter中动态插入css和js，支持引入多个 ([#883](https://github.com/volantis-x/hexo-theme-volantis/issues/883)) ([3146360](https://github.com/volantis-x/hexo-theme-volantis/commit/3146360ecf3955314768fde46226632bf86b4e45))
-
-## [5.7.10](https://github.com/volantis-x/hexo-theme-volantis/compare/5.7.9...5.7.10) (2023-04-28)
-
-
-### Bug Fixes
-
-* 修复移动端菜单栏按钮点击没有收起二级子菜单的问题 ([#880](https://github.com/volantis-x/hexo-theme-volantis/issues/880)) ([bb7738b](https://github.com/volantis-x/hexo-theme-volantis/commit/bb7738b9dcfa375e263ee4ca648d437703b15182))
-
-## [5.7.9](https://github.com/volantis-x/hexo-theme-volantis/compare/5.7.8...5.7.9) (2023-04-26)
-
-
-### Bug Fixes
-
-* 修复移动端web菜单栏无法收缩；特性：浏览器滚动条复杂样式从配置文件传入 ([#877](https://github.com/volantis-x/hexo-theme-volantis/issues/877)) ([91288f9](https://github.com/volantis-x/hexo-theme-volantis/commit/91288f916dee43baadac9750a39de6d3933a6737))
-
-## [5.7.8](https://github.com/volantis-x/hexo-theme-volantis/compare/5.7.7...5.7.8) (2023-04-01)
-
-
-### Bug Fixes
-
-* **LeancloudCounter:** 修复 leancloud 配置特定 appId 值导致 custom_api_server 不生效问题 ([#861](https://github.com/volantis-x/hexo-theme-volantis/issues/861)) ([90e470d](https://github.com/volantis-x/hexo-theme-volantis/commit/90e470d8e2e0125f468acc81820ef7addc91f723))
-
-## [5.7.7](https://github.com/volantis-x/hexo-theme-volantis/compare/v5.7.6...5.7.7) (2022-11-24)
-
-
-### Bug Fixes
-
-* **#824:** 边界条件 ([13f4e0e](https://github.com/volantis-x/hexo-theme-volantis/commit/13f4e0e6be464519a1ea3e020b5da1b1396c1254))
-* yml string to list ([11ab545](https://github.com/volantis-x/hexo-theme-volantis/commit/11ab545b52967e639938be00f78cc6bdefa885d4))
-
-
-### Performance Improvements
-
-* **debug:** description 的配置检查改为warn警告并使用默认值 [#801](https://github.com/volantis-x/hexo-theme-volantis/issues/801) ([f82f547](https://github.com/volantis-x/hexo-theme-volantis/commit/f82f54718b081439ea40e5a105ba81be15c60de0))
-* **readmore:** readmore:false 优先级高于 auto_excerpt:true ([302bf4e](https://github.com/volantis-x/hexo-theme-volantis/commit/302bf4e101689c0df9e0b8cbb1778dd18a8d5567))
-
 ## [5.7.6](https://github.com/volantis-x/hexo-theme-volantis/compare/v5.7.5...v5.7.6) (2022-09-05)
 
 

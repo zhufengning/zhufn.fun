@@ -17,9 +17,9 @@ description主要用于SEO，告诉搜索引擎一个关于您站点的简单描
 see: https://hexo.io/zh-cn/docs/configuration
 description is not configured!`);
     }
-    if (themeConfig?.search?.service===`google`||themeConfig?.search?.service===`algolia`||themeConfig?.search?.service===`azure`||themeConfig?.search?.service===`baidu`) {
-      return `原 google, algolia, azure, baidu 站内搜索 系祖传代码, 且文档丢失, 不便后续维护 在 5.0 版本被移除
-The google, algolia, azure, baidu site search is ancestral code, and the document is lost, which is inconvenient for subsequent maintenance. It was removed in version 5.0
+    if (themeConfig?.search?.service===`google`||themeConfig?.search?.service===`azure`||themeConfig?.search?.service===`baidu`) {
+      return `原 google, azure, baidu 站内搜索 系祖传代码, 且文档丢失, 不便后续维护 在 5.0 版本被移除
+The google, azure, baidu site search is ancestral code, and the document is lost, which is inconvenient for subsequent maintenance. It was removed in version 5.0
 see: https://volantis.js.org/v5/theme-settings/#站内搜索`
     }
     if (`backstretch` in themeConfig?.plugins) {
@@ -36,6 +36,9 @@ see: https://volantis.js.org/v5/theme-settings/#文章布局配置`
       return `Valine 在 5.0 版本被移除
 Valine has been removed in version 5.0
 see: https://volantis.js.org/v5/theme-settings/#选择评论系统`
+    }
+    if (config?.highlight?.hljs) {
+      return `主题不兼容 hljs ，请在 config.highlight.hljs 处修改为 false 关闭。`
     }
   } catch (error) {}
   hexo.log.info(`Check environment configuration success!`);
