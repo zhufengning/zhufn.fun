@@ -1,6 +1,6 @@
 ---
-title: CamDetectRe
-urlname: CamDetectRe
+title: Android小技巧
+urlname: AndroidRe
 date: 2024-10-17 22:02:19
 typora-copy-images-to: 2024-10-17-CamDetectRe
 tags: ["Android"]
