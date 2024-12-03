@@ -37,6 +37,23 @@ checksum失败，修复dex头。
 
 mt或<https://github.com/luoyesiqiu/DexRepair>
 
+## Xposed
+
+### 修改final字段
+
+直接用反射修改final字段会报
+```
+java.lang.IllegalAccessException: Cannot set public final  field
+```
+
+这个时候只需要使用
+
+```kotlin
+XposedHelpers.setBooleanField(value, "a", true)
+```
+
+看起来好蠢QwQ，折腾了半天呢
+
 ## frida
 
 ### 启动指定包名的应用
