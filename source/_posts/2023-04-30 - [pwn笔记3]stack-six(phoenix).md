@@ -164,4 +164,4 @@ sh.interactive()
 
 好了。
 
-![结果](%5Bpwn%E7%AC%94%E8%AE%B03%5D%2073a412be24d94419b5e23f937cfdf3af/2023-05-01-22-22-48-image.png)
+![结果](../images/[pwn笔记3]%2073a412be24d94419b5e23f937cfdf3af/2023-05-01-22-22-48-image.png)

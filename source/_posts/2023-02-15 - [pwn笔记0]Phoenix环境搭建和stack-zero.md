@@ -41,22 +41,13 @@ cat io|$1 -i 2>&1|nc -l 3333 > io
 ## stack-zero
 
 程序比较简单，直接用cutter了。
-
-![深度截图_选择区域_20230215183930.png](%5Bpwn%E7%AC%94%E8%AE%B00%5DPhoenix%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%92%8Cstack-zero%20366826c7bb10483aa08121888111f984/%25E6%25B7%25B1%25E5%25BA%25A6%25E6%2588%25AA%25E5%259B%25BE_%25E9%2580%2589%25E6%258B%25A9%25E5%258C%25BA%25E5%259F%259F_20230215183930.png)
+![](../images/[pwn笔记0]Phoenix环境搭建和stack-zero%20366826c7bb10483aa08121888111f984/code0.png)
 
 （其实exploit.education的网页上给了源码）（开头的注释甚至是个冷笑话草草草）
 
 我们现在要让s溢出到var_10h(changeme)，内容随便。打开gdb，计算一下距离，先随便输入点什么。
 
-![Untitled](%5Bpwn%E7%AC%94%E8%AE%B00%5DPhoenix%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%92%8Cstack-zero%20366826c7bb10483aa08121888111f984/Untitled.png)
-
-字符串在`0x620`这里。
-
-![Untitled](%5Bpwn%E7%AC%94%E8%AE%B00%5DPhoenix%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%92%8Cstack-zero%20366826c7bb10483aa08121888111f984/Untitled%201.png)
-
-判断语句，changeme在`rbp-0x10` 这里也就是`0x670-0x10` 
-
-计算`0x660-0x620=0x40`
+![Untitled](../images/[pwn笔记0]Phoenix环境搭建和stack-zero%20366826c7bb10483aa08121888111f984/Untitled.png)E%B00%5DPhoenix%E7![Untitled](../images/[pwn笔记0]Phoenix环境搭建和stack-zero%20366826c7bb10483aa08121888111f984/Untitled%201.png)0x660-0x620=0x40`
 
 那么我们只要输出`0x41`个a即可
 
@@ -77,4 +68,4 @@ shell.close()
 
 成功
 
-![Untitled](%5Bpwn%E7%AC%94%E8%AE%B00%5DPhoenix%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%92%8Cstack-zero%20366826c7bb10483aa08121888111f984/Untitled%202.png)
+![Untitled](../assets/[pwn笔记0]Phoenix环境搭建和stack-ze![Untitled](../images/[pwn笔记0]Phoenix环境搭建和stack-zero%20366826c7bb10483aa08121888111f984/Untitled%202.png)

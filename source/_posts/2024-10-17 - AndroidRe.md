@@ -5,9 +5,9 @@ date: 2024-10-17 22:02:19
 typora-copy-images-to: 2024-10-17-CamDetectRe
 tags: ["Android"]
 ---
-
 ## 经验
 
+- 不要用jadx和jd，反编译的控制结构可能是错的，用jeb
 - 找旧版，旧版可能没加固，没检测
 - 遇到uni-app勇敢改html/js文件，很多人没有防护意识的
 

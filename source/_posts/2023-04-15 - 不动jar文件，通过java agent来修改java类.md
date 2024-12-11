@@ -111,6 +111,6 @@ manifest里除了`Premain-Class`和`Agent-Class`以外还要再加两行（记�
 
 然后启动命令是`java -javaagent:'/home/zfn/NetBeansProjects/agent2/dist/agent2.jar' -jar awd.jar`
 
-![Untitled](%E4%B8%8D%E5%8A%A8jar%E6%96%87%E4%BB%B6%EF%BC%8C%E9%80%9A%E8%BF%87java%20agent%E6%9D%A5%E4%BF%AE%E6%94%B9java%E7%B1%BB%20ea74ef5a453e46dea12ce194cb149653/Untitled.png)
+![Untitled](../images/不动jar文件，通过java%20agent来修改java类%20ea74ef5a453e46dea12ce194cb149653/Untitled.png)
 
 好

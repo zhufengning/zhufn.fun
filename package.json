@@ -15,6 +15,7 @@
     "hexo-generator-search": "^2.4.1",
     "hexo-generator-tag": "^1.0.0",
     "hexo-helper-qrcode": "^1.0.2",
+    "hexo-md-imgs": "^1.0.1",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-markdown-it": "^7.1.1",
     "hexo-renderer-markdown-it-plus": "^1.0.4",
@@ -25,5 +26,6 @@
   "scripts": {
     "dev": "hexo server -p $PORT",
     "build": "hexo generate"
-  }
+  },
+  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
 }

@@ -38,13 +38,9 @@ Line 1: A single integer that is the number of new paths that must be built.
 先删除所有的桥，剩下的是一些边双联通分量。把把每个边双联通分量缩成一个顶点，加回桥，最后剩下的会是一棵树。
 设这棵树叶节点的数量为leaf，则需要加的边数为`leaf == 1 ? 0 : (leaf + 1) / 2`。这里的除号是整除。
 这是经过测试的！！
-![UTOOLS1563883675341.png](%5BUSACO06JAN%5D%E5%86%97%E4%BD%99%E8%B7%AF%E5%BE%84Redundant%20Paths/f6606434df15e5145a457356d4e4e125.png)
+![UTOOLS1563883675341.png](../images/[USACO06JAN]冗余路径Redundant%20Paths/f6606434df15e5145a457356d4e4e125.png)
 
-![UTOOLS1563883793008.png](%5BUSACO06JAN%5D%E5%86%97%E4%BD%99%E8%B7%AF%E5%BE%84Redundant%20Paths/ebaf19d4d1650efe0d10a3fb38addd60.png)
-
-## 代码
-```cpp
-#include <cstdio>
+![UTOOLS1563883793008.png](../images/[USACO06JAN]冗余路径Redundant%20Paths/ebaf19d4d1650efe0d10a3fb38addd60.png)e <cstdio>
 #include <iostream>
 #include <stack>
 #include <cmath>
