@@ -8,6 +8,7 @@ tags:
 今日[Android小技巧](https://zhufn.fun/archives/AndroidRe/)：
 > 不要用jadx和jd，反编译出的控制结构可能是错的，用jeb
 
+~~第一次出Android题喵，出得烂不要骂我喵~~
 # Java部分
 
 谷歌最近推荐用Compsoe取代传统xml布局，我一看，赶紧写一个试试，AI生成完一看，跟个flutter似的。丢进反编译一看，跟个答辩似的，请看对比图（这两张图大致在同一个地方）（不开混淆的话可能会好很多）：
